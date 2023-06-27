@@ -1,0 +1,10 @@
+<h2>Animated Play Button</h2>
+<audio #audio src="https://soundbible.com/grab.php?id=1964&type=mp3"></audio>
+
+<yt-button-play
+  [duration]="8000"
+  [size]="50"
+  (onStart)="onStartButtonPlay()"
+  (onPause)="onPauseButtonPlay()"
+  (onDone)="onDoneButtonPlay()"
+></yt-button-play>
